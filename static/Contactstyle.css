@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('/static/contactbg.jpg');
+    opacity: 0.9;
+}
+.container {
+    height: 100vh;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 0;
+    padding: 5px 5px;
+    font-size: 2rem;
+    color: aliceblue; 
+}
+.real h2{
+    margin: 5px 15px;
+    color: aliceblue;
+    padding: 5px 0;
+}
+.real p{
+    margin: 2px 15px;
+    color: aliceblue;
+    padding: 3px 0;
+}
+.real h3{
+    margin: 5px 15px;
+    color: aliceblue;
+    padding: 5px 0;
+}
+.real ul li a{
+    text-decoration: none;
+    padding: 13px 15px;
+    color: rgb(255, 131, 131); 
+    font-size: large;
+}
+.real ul li a:hover{
+    color: rgb(255, 43, 43);
+}

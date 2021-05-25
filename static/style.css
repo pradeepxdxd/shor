@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin: 5px 12px;
+    padding: 5px 5px;
+    filter: invert(1);
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 13px 29px;
+    color: rgb(252, 252, 252);
+    font-size: large;
+}
+#navbar{
+    background-color: #4a4a4a;
+    padding: 7px 9px;
+}
+nav ul li a:hover{
+    color: tomato;
+}
+#introSection {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 425px;
+    color: rgb(136, 136, 136);
+    opacity: 0.7;
+    background: url('/static/bg.jpg') center/cover no-repeat;
+}
+#introSection h2{
+    font-size: 2.8rem;
+}
+#introSection h3.small{
+    font-size: 1.8rem;
+    padding: 5px;
+}
+#missionSection{
+    border: 2px solid black;
+    height: 425px;
+    background: url('/static/mic.jpg') top/cover no-repeat;
+    color: aliceblue;
+    opacity: 0.8;
+}
+#missionSection h2{
+    /* border: 2px solid red; */
+    width: 250px;
+    display: flex;
+    margin: 5px auto;
+}
+#missionSection div.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 12px;
+    padding: 5px 5px;
+}
+#missionSection div.para p.gg{
+    margin: 5px 12px;
+    padding: 7px 8px;
+    font-size: 1.2rem;
+}
+#missionSection div.para p.hh{
+    margin: 5px 12px;
+    padding: 7px 8px;
+    font-size: 1.2rem;
+}
+#missionSection div.para p.kk{
+    margin: 5px 12px;
+    padding: 7px 8px;
+    font-size: 1.2rem;
+}
+#missionSection div.para p.ll{
+    margin: 5px 12px;
+    padding: 7px 8px;
+    font-size: 1.2rem;
+}
+#yoyo{
+    height: 192px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#sponsorsSection{
+    height: 300px;
+    background: url('/static/sponsors.jpg') center/cover no-repeat;
+    opacity: 0.8;
+}
+#sponsorsSection h2{
+    /* text-align: center;
+    font-size: 36px;
+    padding-top: 12px; */
+    width: 300px;
+    display: flex;
+    margin: auto;
+    font-size: 1.9rem;
+    color:aliceblue;
+}
+#footer{
+    display: flex;
+    height: 60px;
+    color: white;
+    background-color: rgb(43, 43, 43);
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    color: rgb(255, 102, 102);
+}

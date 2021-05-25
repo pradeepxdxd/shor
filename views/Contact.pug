@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+  style
+        include ../static/style.css
+        include ../static/Contactstyle.css
+
+block content
+    div.container 
+      h1 Our Contact
+      div.real 
+        h2 Contact Us: 
+        p  Here we are provided all required details and information related to TV Shows Audition portal. If you want to contact us then follow the given bellow contact details –
+        h3 Mail ID – tvshowaudition.in@gmail.com
+        ul 
+          li #[a(href="https://www.tvshowsaudition.in/contact-us/") Click Here For Registeration]
+        
+        

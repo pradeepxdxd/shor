@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+  style
+        include ../static/style.css
+        include ../static/Auditionstyle.css
+
+block content
+    div.container 
+      h2 Auditions are open 
+      form(action="/audition", method="post", class="myForm") 
+          input(type="text", name="name", placeholder="Enter Your Name", class="myInput")
+          input(type="email", name="email", placeholder="Enter Your Email", class="myInput")
+          input(type="phone", name="phone", placeholder="Enter Your Number", class="myInput")
+          input(type="text", name="address", placeholder="Enter Your Address", class="myInput")
+          input(type="text", name="more", placeholder="More About You", class="myInput")
+          button.btn 
+            | Submit

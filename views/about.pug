@@ -1,0 +1,32 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+  style
+        include ../static/Aboutstyle.css
+        include ../static/style.css
+
+block content
+    div.container 
+      h1 Top 5 Popular Shows In Our Country
+      div.real 
+        h2 Singing: 
+        p Singing is the act of producing musical sounds with the voice. A person who sings is called a singer or vocalist. The singing reality show is the singing platform search for new singers from all over the world. Check Popular Indian Singing Show, Which is very popular in India.
+        h2 Indian Idol:
+        p Indian Idol Biggest Singing Show In India is the Indian version of the Pop Idol format. This is a very popular Indian Reality show.
+        div.image 
+          img(src="/static/picidol.jpg", alt="source")
+        h2 SA RE GA MA PA: 
+        p SA RE GA MA PA is an Indian tv singing reality show. Which Started from 1995 From 1999 to 2001. Amaan Ali Khan and Ayaan Ali Khan was the host.
+        div.image 
+          img(src="/static/picsaregamapa.jpg", alt="source")
+        h2 The Voice Of India:
+        p The Voice Of India Reality Singing Show was started in 6th June 2015 on & tv Chanel.  The producer was Sameer Gogate judges in this show Himesh Reshammiya, Mika Singh, Shaan and Sunidhi Chauhan.
+        div.image 
+          img(src="/static/picvoice.jpg", alt="source")
+        h2 Indias Raw Star: 
+        p India’s Raw star is reality singing Competition Show Created By Gajendra Singh Its Started On 24th August 2014. It was hosted by model-actress Gauahar Khan and mentored by singer-rapper Yo Yo Honey Singh.
+        div.image 
+          img(src="/static/picstar.jpg", alt="source")
